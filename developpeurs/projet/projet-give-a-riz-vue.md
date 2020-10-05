@@ -94,7 +94,7 @@ Bonus:
 - Architecture MVC niveau 2
 - Crud niveau 2
 - Routing niveau 1
-- Copywriter: créer sa propre documentation niveau 1 (README.md) = Comment on connecte le projet, comment on l'utilise
+- Copywriter: créer sa propre documentation niveau 1 (README.md) = **Comment on connecte le projet, comment on l'utilise, etc.**
 
  
 ## Deadline
