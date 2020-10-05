@@ -33,7 +33,7 @@ Régine | Joellie | Ziadoon
 ## Les fonctionnalités
 
 - Avant tout propos: votre application sera construite sur le principe d'une SINGLE PAGE APP: components et DOM virtuel sont au programme 
-- La possibilité pour un visiteur de s'inscrire et de se connecter
+- La possibilité pour un visiteur de s'inscrire et de se connecter. **DONC PAS 2000 pages en  .HTML oula .PHP**
 - La possibilité pour un visiteur non enregistré de consulter les fiches de films et leurs critiques: cette fiche doit comporter la moyenne des notes numériques données par les utilisateurs ainsi qu'un onglet affichant les critiques rédigées, la bande annonce du film si disponnible ainsi que l'affiche, le genre, l'année, la liste des acteurs et staff (réalisateur, producteur), sans oublier le synopsis
 - La possibilité pour un visiteur non enregistré de consulter les fiches de séries et leurs critiques: cette fiche doit comporter la moyenne des notes numériques données par les utilisateurs ainsi qu'un onglet affichant les critiques rédigées, la bande annonce du film si disponnible ainsi que l'affiche, le genre, l'année, la liste des acteurs et staff (réalisateur, producteur), sans oublier le synopsis
 - La possibilité pour un visiteur non enregistré de consulter les fiches des acteurs reprenant une courte biographie ainsi que leur filmographie complète
@@ -44,6 +44,7 @@ Régine | Joellie | Ziadoon
 - Une liste des films disponnibles à la critique, compte tenu du volume d'information prévoir une pagination
 - Une liste des séries disponnibles dans le même ordre d'idée que pour les films
 - Une fonction de recherche par genre / acteur / année / réalisateur
+- **Remarque : Ne pas réinventer la roue, il suffit d'utiliser les technologies à notre disposition !**
 
  
 ## Les technologies
@@ -57,17 +58,17 @@ Régine | Joellie | Ziadoon
 
 **Back-end:**
 
-- Node.JS
-- Express.JS
-- Mongoose.JS
-- MongoDB
-- Body-parser
+- Node.JS  **Plateforme** comme laragon pour PHP 
+- Express.JS **Interface de programmation de l'API** = language coté serveur qui a déjà toutes des fonctions pré-programmées, comme PhP
+- Mongoose.JS **Query qui vont chercher dans notre base de données**  comme MySql
+- MongoDB **La base de donnée** comme php myAdmin 
+- Body-parser = **Sert à traduire les morceaux de requête pour que ca soit lisible** 
  
 ## Le déroulement du projet
  
 Dans l'optique d'une bonne gestion de votre projet, vous aurez **l'obligation** d'utiliser la méthode scrum:
  
-- Désignation des rôles
+- Désignation des rôles = Qui est le product owner, le scrum master et 3 sprint d'une semaine avec une évaluation de la vélocité après chaque semaine. Stand up meeting tous les matins. 
 - Analyse fonctionnelle
 - Backlog
 - Réalisation d'un sprint planning: définir la durée du sprint, les objectifs, et estimer le temps à attribuer à chaque fonctionnalité
@@ -93,7 +94,7 @@ Bonus:
 - Architecture MVC niveau 2
 - Crud niveau 2
 - Routing niveau 1
-- Copywriter: créer sa propre documentation niveau 1 (README.md)
+- Copywriter: créer sa propre documentation niveau 1 (README.md) = Comment on connecte le projet, comment on l'utilise
 
  
 ## Deadline
